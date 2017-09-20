@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.atm.atm.UpdateDatabase">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Holder Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/accno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Account Number (11)"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/cif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CIF Number (11)"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/accounttype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Account Type"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/haddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Holder Address"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/phonen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone Number (10)"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/emails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/atmnos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ATM Number (16)"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/bankcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Bank Code (7)"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/issued"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Issue Date "
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/pins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="PIN (4)"
+            android:inputType="phone" />
+        <EditText
+            android:id="@+id/cvvs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CVV (3)"
+            android:inputType="phone" />
+        <EditText
+            android:id="@+id/adharc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Adhar Card (16)"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+
+    </LinearLayout>
+</ScrollView>
